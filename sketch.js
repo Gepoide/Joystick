@@ -27,7 +27,8 @@ let cerchio = {
 };
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  pixelDensity(1);
+  createCanvas(window.innerWidth, window.innerHeight);
 
   //Setup controllers
   controller_1 = new ControllerQuad(
